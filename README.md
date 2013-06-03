@@ -1,16 +1,19 @@
 android-test-snippets
 =====================
 
-Code Snippets for Android test cases.
+Android-Test-Snippets are a set of code snippets (or koans) for Android test cases.
+Each snippet shows a concrete example of use of an element from the android testing API 
+(mainly in android.test package).
 
-asserts/
+Snippet code or ideas to create new and useful snippets are welcomed. E-mail us jere: 
+formacion@iwt.org
 
-Examples of the asserts included in android.testMoreAsserts class.
+Actually, the snippets are:
 
-SQLite/
+asserts - Examples of the asserts included in android.testMoreAsserts class.
 
-This Example shows the use of AndroidTest case to write a test case for a SQLite code.
+SQLite - This example shows the use of AndroidTest case to write a test case for a SQLite code.
 
-TestLabelIsVisible/
+TestLabelIsVisible - Example of a test case that checks is a component from the view of an Activity class is visible when running that activity
 
-Example of a test case that checks is a component from the view of an Activity class is visible when running that activity
+userpermission - Tests that the application has specific user permissions
